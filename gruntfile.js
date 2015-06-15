@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+                banner: '/*! <%= pkg.niceName %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
                 sourceMap: true
             },
             angularSources: {
